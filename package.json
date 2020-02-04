@@ -2,10 +2,11 @@
   "name": "typing-issue",
   "version": "1.0.0",
   "description": "Test repo for issue with node and bluebird",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "start": "ts-node src/index.ts"
+    "start": "ts-node src/index.ts",
+    "clean": "rm -rf ./dist"
   },
   "author": "",
   "license": "ISC",
